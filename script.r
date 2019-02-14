@@ -1,0 +1,6 @@
+df3 <-read.csv("usedcars.csv")
+str(df3)
+df4 <- read.csv("usedcars.csv", stringsAsFactors = FALSE)
+str(df4)
+yellow_cars <- subset(df4, color %in% "Yellow")
+high_mileage <- subset(df4, mileage > 100000)
