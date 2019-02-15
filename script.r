@@ -17,4 +17,4 @@ mean(df3$mileage) # calculate mean
 median(df3$mileage) # calculate median
 var(df3$mileage) # calculate variation
 hist(df3$mileage) # Draw Histogram
-x11()
+x11() # open new window 
